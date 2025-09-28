@@ -1,9 +1,9 @@
 import express from "express";
-import logger from "./src/common/winston/init.winston";
-import logApi from "./src/common/morgan/init.morgan";
+import logger from "./src/common/winston/init.winston.js";
+import logApi from "./src/common/morgan/init.morgan.js";
 import cors from "cors";
-import { handleError } from "./src/common/helpers/error.helper";
-import rootRouter from "./src/routers/root.router";
+import { handleError } from "./src/common/helpers/error.helper.js";
+import rootRouter from "./src/routers/root.router.js";
 
 const app = express();
 

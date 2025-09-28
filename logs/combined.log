@@ -1319,3 +1319,8 @@
 {"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 13.380ms","tag":" API "}
 {"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.073ms","tag":" API "}
 {"level":"info","message":"PUT /comment/3 200 352 88.757ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET / 404 139 3.662ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}

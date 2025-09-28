@@ -1,4 +1,4 @@
-import prisma from "../common/prisma/init.prisma";
+import prisma from "../common/prisma/init.prisma.js";
 
 export const likeService = {
   like: async function (req) {

@@ -1,5 +1,5 @@
-import likeService from "../services/like.service";
-import { responseSuccess } from "../common/helpers/response.helper";
+import likeService from "../services/like.service.js";
+import { responseSuccess } from "../common/helpers/response.helper.js";
 export const likeController = {
    like: async function (req, res, next) {
       try {

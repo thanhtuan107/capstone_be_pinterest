@@ -1,5 +1,5 @@
 import morgan from "morgan";
-import logger from "../winston/init.winston";
+import logger from "../winston/init.winston.js";
 
 const logApi = (req, res) => {
  return  morgan(function (tokens, req, res) {

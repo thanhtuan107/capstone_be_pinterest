@@ -1,6 +1,6 @@
 import express from "express";
 import swaggerUi from "swagger-ui-express";
-import swaggerDocument from "../common/swagger/init.swagger";
+import swaggerDocument from "../common/swagger/init.swagger.js";
 import authRouter from "./auth.router";
 import photoRouter from "./photo.router";
 import userRouter from "./user.router";

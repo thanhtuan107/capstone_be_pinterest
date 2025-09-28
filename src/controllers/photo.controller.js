@@ -1,5 +1,5 @@
-import photoService from "../services/photo.service";
-import { responseSuccess } from "../common/helpers/response.helper";
+import photoService from "../services/photo.service.js";
+import { responseSuccess } from "../common/helpers/response.helper.js";
 export const photoController = {
    create: async function (req, res, next) {
       try {

@@ -1,10 +1,10 @@
-import prisma from "../common/prisma/init.prisma";
+import prisma from "../common/prisma/init.prisma.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import logger from "../common/winston/init.winston";
-import { BadRequestException, UnAuthorizedException } from "../common/helpers/exception.helper";
-import tokenService from "./token.service";
-import { ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET } from "../common/constant/app.constant";
+import logger from "../common/winston/init.winston.js";
+import { BadRequestException, UnAuthorizedException } from "../common/helpers/exception.helper.js";
+import tokenService from "./token.service.js";
+import { ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET } from "../common/constant/app.constant.js";
 export const authService = {
    register: async function (req) {
       const {email, password, hoTen} = req.body;

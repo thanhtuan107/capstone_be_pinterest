@@ -1,10 +1,10 @@
-import prisma from "../common/prisma/init.prisma";
+import prisma from "../common/prisma/init.prisma.js";
 import {
   NotFoundException,
   ForbiddenException,
   BadRequestException,
   UnprocessableEntityException,
-} from "../common/helpers/exception.helper"; 
+} from "../common/helpers/exception.helper.js"; 
 
 
 const MAX_COMMENT_LENGTH = 500;

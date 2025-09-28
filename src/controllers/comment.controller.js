@@ -1,5 +1,5 @@
-import { responseSuccess } from "../common/helpers/response.helper";
-import { commentService } from "../services/comment.service";
+import { responseSuccess } from "../common/helpers/response.helper.js";
+import { commentService } from "../services/comment.service.js";
 
 export const commentController = {
    create: async function (req, res, next) {

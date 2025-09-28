@@ -1,6 +1,6 @@
-import { ACCESS_TOKEN_SECRET } from "../constant/app.constant";
+import { ACCESS_TOKEN_SECRET } from "../constant/app.constant.js";
 import jwt from "jsonwebtoken";
-import { UnAuthorizedException } from "../helpers/exception.helper";
+import { UnAuthorizedException } from "../helpers/exception.helper.js";
 import prisma from "../prisma/init.prisma";
 
 const protect = async (req,res,next) => {

@@ -1,8 +1,8 @@
-import prisma from "../common/prisma/init.prisma";
+import prisma from "../common/prisma/init.prisma.js";
 import fs from "fs";
 import path from "fs";
 import { v2 as cloudinary } from "cloudinary";
-import { API_KEY_CLOUDINARY, API_SECRET_CLOUDINARY, CLOUD_NAME_CLOUDINARY } from "../common/constant/app.constant";
+import { API_KEY_CLOUDINARY, API_SECRET_CLOUDINARY, CLOUD_NAME_CLOUDINARY } from "../common/constant/app.constant.js";
 export const photoService = {
   create: async function (req) {
     const file = req.file;

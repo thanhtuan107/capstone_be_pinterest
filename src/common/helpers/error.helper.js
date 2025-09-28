@@ -1,6 +1,6 @@
 import { MulterError } from "multer";
-import { BadRequestException, ForbiddenException, UnAuthorizedException } from "./exception.helper";
-import { responseError } from "./response.helper";
+import { BadRequestException, ForbiddenException, UnAuthorizedException } from "./exception.helper.js";
+import { responseError } from "./response.helper.js";
 import jwt from "jsonwebtoken";
 
 export const handleError = (err, req, res, next) => {

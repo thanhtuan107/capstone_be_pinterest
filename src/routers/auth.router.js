@@ -1,6 +1,6 @@
 import express from 'express';
-import authController from '../controllers/auth.controller';
-import protect from '../common/middleware/protect.middleware';
+import authController from '../controllers/auth.controller.js';
+import protect from '../common/middleware/protect.middleware.js';
 const authRouter = express.Router();
 
 // Tạo route CRUD

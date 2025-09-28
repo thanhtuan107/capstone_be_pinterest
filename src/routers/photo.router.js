@@ -1,7 +1,7 @@
 import express from 'express';
-import photoController from '../controllers/photo.controller';
-import protect from '../common/middleware/protect.middleware';
-import uploadCloud from '../common/multer/cloud.multer';
+import photoController from '../controllers/photo.controller.js';
+import protect from '../common/middleware/protect.middleware.js';
+import uploadCloud from '../common/multer/cloud.multer.js';
 
 const photoRouter = express.Router();
 

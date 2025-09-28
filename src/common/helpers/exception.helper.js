@@ -1,4 +1,4 @@
-import { statusCodes } from "./status-code.helper";
+import { statusCodes } from "./status-code.helper.js";
 
 export class BadRequestException extends Error {
   constructor(message = `Bad Request`) {

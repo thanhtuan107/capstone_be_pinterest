@@ -1,8 +1,8 @@
-import authSwagger from "./auth.swagger";
-import commentSwagger from "./comment.swagger";
-import likeSwagger from "./like.swagger";
-import photoSwagger from "./photo.swagger";
-import userSwagger from "./user.swagger";
+import authSwagger from "./auth.swagger.js";
+import commentSwagger from "./comment.swagger.js";
+import likeSwagger from "./like.swagger.js";
+import photoSwagger from "./photo.swagger.js";
+import userSwagger from "./user.swagger.js";
 
 const swaggerDocument = {
     openapi: "3.1.1",

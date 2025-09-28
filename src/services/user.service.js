@@ -1,4 +1,4 @@
-import prisma from "../common/prisma/init.prisma";
+import prisma from "../common/prisma/init.prisma.js";
 import bcrypt from "bcrypt";
 
 import {
@@ -7,7 +7,7 @@ import {
   BadRequestException,
   ConflictException,
   UnprocessableEntityException,
-} from "../common/helpers/exception.helper";
+} from "../common/helpers/exception.helper.js";
 
 const PASSWORD_MIN_LENGTH = 6;
 const PASSWORD_REGEX = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/;

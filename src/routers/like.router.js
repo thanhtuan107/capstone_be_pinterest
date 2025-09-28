@@ -1,6 +1,6 @@
 import express from 'express';
-import likeController from '../controllers/like.controller';
-import protect from '../common/middleware/protect.middleware';
+import likeController from '../controllers/like.controller.js';
+import protect from '../common/middleware/protect.middleware.js';
 const likeRouter = express.Router();
 
 // Tạo route CRUD
